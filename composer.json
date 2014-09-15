@@ -1,0 +1,23 @@
+{
+    "name": "filipac/searchable",
+    "description": "Eloquent model search trait.",
+    "keywords": ["laravel", "eloquent", "search", "searchable"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Pacurar",
+            "email": "filip@pacurar.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.x",
+        "illuminate/database": "4.2.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Filipac\\Searchable": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
