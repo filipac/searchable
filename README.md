@@ -84,13 +84,13 @@ $users = Paginator::make($data, $total_items, $count);
 
 If you want to search through relations too, you can add the following to the desired model:
 
-```
+```php
 protected $joinable = [
     'profiles' => ['users.profile_id','profiles.id']
     ];
 ```
 The code above would join the the ```profiles``` table on ```users.profile_id = profiles.id```. Then you can add the following to search in profiles table:
-```
+```php
 /**
      * Searchable rules.
      *
