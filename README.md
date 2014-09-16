@@ -1,5 +1,6 @@
 Searchable, a search trait for Laravel
 ==========================================
+![Filipac/searchable](https://raw.githubusercontent.com/filipac/searchable/master/searchable.jpg"Filipac/searchable")
 
 Searchable is a trait for Laravel 4.2+ that adds a simple search function to Eloquent Models.
 
