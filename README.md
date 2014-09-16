@@ -90,7 +90,7 @@ protected $joinable = [
     'profiles' => ['users.profile_id','profiles.id']
     ];
 ```
-The code above would join the the ```profiles``` table on ```users.profile_id = profiles.id```. Then you can add the following to search in profiles table:
+The code above would join the ```profiles``` table on ```users.profile_id = profiles.id```. Then you can add the following to search in profiles table:
 ```php
 /**
      * Searchable rules.
